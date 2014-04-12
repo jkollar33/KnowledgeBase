@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="attributes" size="1691,979" id="sk.kollar.knowledge.domain.attributes" metadata="uml2-1.0" initialized="true" scrolledX="-35" scrolledY="-65" tag="1000" key="32303037303533312D31303030204B6E6F776C65646765426173654265616E732F4A75726F">
+  <children xsi:type="editmodel:ClassEditModel" name="BigDecimalAttribute" location="-15,270" size="169,121" id="sk.kollar.knowledge.domain.attributes/BigDecimalAttribute" runTimeClassModel="getValue(),BigDecimalAttribute(Lsk.kollar.knowledge.domain.AttributeType;),setValue(Ljava.math.BigDecimal;),value">
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="value" id="sk.kollar.knowledge.domain.attributes/BigDecimalAttribute#value"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,54">
+      <children xsi:type="editmodel:MethodEditModel" name="getValue" id="sk.kollar.knowledge.domain.attributes/BigDecimalAttribute#getValue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setValue" id="sk.kollar.knowledge.domain.attributes/BigDecimalAttribute#setValue(Ljava.math.BigDecimal;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="BigDecimalAttribute" id="sk.kollar.knowledge.domain.attributes/BigDecimalAttribute#BigDecimalAttribute(Lsk.kollar.knowledge.domain.AttributeType;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="sk.kollar.knowledge.domain/Attribute&lt;-sk.kollar.knowledge.domain.attributes/BigDecimalAttribute" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="84,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="97,171"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.0 //@children.0/@sourceConnections.0" name="Attribute" location="43,-60" size="182,171" id="sk.kollar.knowledge.domain/Attribute" runTimeClassModel="getValue(),addAttributeKeyWord(Lsk.kollar.knowledge.domain.AttributeKeyWord;),Attribute(Lsk.kollar.knowledge.domain.AttributeType;),removeAttributeKeyWord(Lsk.kollar.knowledge.domain.AttributeKeyWord;),setValue(LT;),computableValue">
+    <children xsi:type="editmodel:CompartmentEditModel" size="159,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="computableValue" id="sk.kollar.knowledge.domain/Attribute#computableValue"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="152,90">
+      <children xsi:type="editmodel:MethodEditModel" name="addAttributeKeyWord" id="sk.kollar.knowledge.domain/Attribute#addAttributeKeyWord(Lsk.kollar.knowledge.domain.AttributeKeyWord;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValue" id="sk.kollar.knowledge.domain/Attribute#getValue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeAttributeKeyWord" id="sk.kollar.knowledge.domain/Attribute#removeAttributeKeyWord(Lsk.kollar.knowledge.domain.AttributeKeyWord;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setValue" id="sk.kollar.knowledge.domain/Attribute#setValue(LT;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Attribute" id="sk.kollar.knowledge.domain/Attribute#Attribute(Lsk.kollar.knowledge.domain.AttributeType;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BigDecimalAttributeType" location="195,270" size="223,207" id="sk.kollar.knowledge.domain.attributetypes/BigDecimalAttributeType" runTimeClassModel="getMaxValue(),setMinValue(Ljava.math.BigDecimal;),getMinValue(),minValue,setMaxValue(Ljava.math.BigDecimal;),BigDecimalAttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZI),BigDecimalAttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZLjava.math.BigDecimal;Ljava.math.BigDecimal;I),maxValue">
+    <children xsi:type="editmodel:CompartmentEditModel" size="124,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="maxValue" id="sk.kollar.knowledge.domain.attributetypes/BigDecimalAttributeType#maxValue"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="minValue" id="sk.kollar.knowledge.domain.attributetypes/BigDecimalAttributeType#minValue"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="146,108">
+      <children xsi:type="editmodel:MethodEditModel" name="BigDecimalAttributeType" id="sk.kollar.knowledge.domain.attributetypes/BigDecimalAttributeType#BigDecimalAttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZI)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="BigDecimalAttributeType" id="sk.kollar.knowledge.domain.attributetypes/BigDecimalAttributeType#BigDecimalAttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZLjava.math.BigDecimal;Ljava.math.BigDecimal;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMaxValue" id="sk.kollar.knowledge.domain.attributetypes/BigDecimalAttributeType#getMaxValue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMinValue" id="sk.kollar.knowledge.domain.attributetypes/BigDecimalAttributeType#getMinValue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setMaxValue" id="sk.kollar.knowledge.domain.attributetypes/BigDecimalAttributeType#setMaxValue(Ljava.math.BigDecimal;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setMinValue" id="sk.kollar.knowledge.domain.attributetypes/BigDecimalAttributeType#setMinValue(Ljava.math.BigDecimal;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="sk.kollar.knowledge.domain/AttributeType&lt;-sk.kollar.knowledge.domain.attributetypes/BigDecimalAttributeType" source="//@children.2" target="//@children.7/@sourceConnections.0" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="110,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BooleanAttributeType" location="1492,289" size="223,99" id="sk.kollar.knowledge.domain.attributetypes/BooleanAttributeType" runTimeClassModel="BooleanAttributeType(),BooleanAttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZI)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="133,36">
+      <children xsi:type="editmodel:MethodEditModel" name="BooleanAttributeType" id="sk.kollar.knowledge.domain.attributetypes/BooleanAttributeType#BooleanAttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZI)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="BooleanAttributeType" id="sk.kollar.knowledge.domain.attributetypes/BooleanAttributeType#BooleanAttributeType()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="sk.kollar.knowledge.domain/AttributeType&lt;-sk.kollar.knowledge.domain.attributetypes/BooleanAttributeType" source="//@children.3" target="//@children.7/@sourceConnections.0" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="110,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="DoubleAttributeType" location="923,289" size="223,207" id="sk.kollar.knowledge.domain.attributetypes/DoubleAttributeType" runTimeClassModel="setMinValue(Ljava.lang.Double;),getMaxValue(),getMinValue(),minValue,DoubleAttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZI),setMaxValue(Ljava.lang.Double;),DoubleAttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZLjava.lang.Double;Ljava.lang.Double;I),maxValue">
+    <children xsi:type="editmodel:CompartmentEditModel" size="105,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="maxValue" id="sk.kollar.knowledge.domain.attributetypes/DoubleAttributeType#maxValue"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="minValue" id="sk.kollar.knowledge.domain.attributetypes/DoubleAttributeType#minValue"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="127,108">
+      <children xsi:type="editmodel:MethodEditModel" name="DoubleAttributeType" id="sk.kollar.knowledge.domain.attributetypes/DoubleAttributeType#DoubleAttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZLjava.lang.Double;Ljava.lang.Double;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="DoubleAttributeType" id="sk.kollar.knowledge.domain.attributetypes/DoubleAttributeType#DoubleAttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZI)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMaxValue" id="sk.kollar.knowledge.domain.attributetypes/DoubleAttributeType#getMaxValue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMinValue" id="sk.kollar.knowledge.domain.attributetypes/DoubleAttributeType#getMinValue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setMaxValue" id="sk.kollar.knowledge.domain.attributetypes/DoubleAttributeType#setMaxValue(Ljava.lang.Double;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setMinValue" id="sk.kollar.knowledge.domain.attributetypes/DoubleAttributeType#setMinValue(Ljava.lang.Double;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="sk.kollar.knowledge.domain/AttributeType&lt;-sk.kollar.knowledge.domain.attributetypes/DoubleAttributeType" source="//@children.4" target="//@children.7/@sourceConnections.0" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="110,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="IntegerAttributeType" location="722,289" size="223,207" id="sk.kollar.knowledge.domain.attributetypes/IntegerAttributeType" runTimeClassModel="IntegerAttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZI),getMaxValue(),getMinValue(),setMinValue(Ljava.lang.Integer;),minValue,IntegerAttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZLjava.lang.Integer;Ljava.lang.Integer;I),setMaxValue(Ljava.lang.Integer;),maxValue">
+    <children xsi:type="editmodel:CompartmentEditModel" size="105,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="maxValue" id="sk.kollar.knowledge.domain.attributetypes/IntegerAttributeType#maxValue"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="minValue" id="sk.kollar.knowledge.domain.attributetypes/IntegerAttributeType#minValue"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="127,108">
+      <children xsi:type="editmodel:MethodEditModel" name="IntegerAttributeType" id="sk.kollar.knowledge.domain.attributetypes/IntegerAttributeType#IntegerAttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZLjava.lang.Integer;Ljava.lang.Integer;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="IntegerAttributeType" id="sk.kollar.knowledge.domain.attributetypes/IntegerAttributeType#IntegerAttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZI)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMaxValue" id="sk.kollar.knowledge.domain.attributetypes/IntegerAttributeType#getMaxValue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMinValue" id="sk.kollar.knowledge.domain.attributetypes/IntegerAttributeType#getMinValue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setMaxValue" id="sk.kollar.knowledge.domain.attributetypes/IntegerAttributeType#setMaxValue(Ljava.lang.Integer;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setMinValue" id="sk.kollar.knowledge.domain.attributetypes/IntegerAttributeType#setMinValue(Ljava.lang.Integer;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="sk.kollar.knowledge.domain/AttributeType&lt;-sk.kollar.knowledge.domain.attributetypes/IntegerAttributeType" source="//@children.5" target="//@children.7/@sourceConnections.0" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="110,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.0" name="AttributeType" location="900,-60" size="175,225" id="sk.kollar.knowledge.domain/AttributeType" runTimeClassModel="createAttribute(),index,isValue,description,name,mandatory,AttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZI),code,multipleOccurence">
+    <children xsi:type="editmodel:CompartmentEditModel" size="152,126">
+      <children xsi:type="editmodel:AttributeEditModel" name="code" id="sk.kollar.knowledge.domain/AttributeType#code"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="description" id="sk.kollar.knowledge.domain/AttributeType#description"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="isValue" id="sk.kollar.knowledge.domain/AttributeType#isValue"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mandatory" id="sk.kollar.knowledge.domain/AttributeType#mandatory"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="multipleOccurence" id="sk.kollar.knowledge.domain/AttributeType#multipleOccurence"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="sk.kollar.knowledge.domain/AttributeType#name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="index" id="sk.kollar.knowledge.domain/AttributeType#index"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="102,36">
+      <children xsi:type="editmodel:MethodEditModel" name="AttributeType" id="sk.kollar.knowledge.domain/AttributeType#AttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZI)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createAttribute" id="sk.kollar.knowledge.domain/AttributeType#createAttribute()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="sk.kollar.knowledge.domain/AttributeType@attributeType+sk.kollar.knowledge.domain/Attribute@attribute" source="//@children.6" target="//@children.1" targetEnd="//@children.6/@sourceConnections.0/@children.2" label="//@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="attributeType" location="0,85" id="sk.kollar.knowledge.domain/AttributeType@attributeType+sk.kollar.knowledge.domain/Attribute@attribute|sk.kollar.knowledge.domain/AttributeType#attributeType" attachSource="true" multiplicityLabel="//@children.6/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.6/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - attributeType" location="821,4" size="72,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="875,32" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="attribute" location="182,85" id="sk.kollar.knowledge.domain/AttributeType@attributeType+sk.kollar.knowledge.domain/Attribute@attribute|sk.kollar.knowledge.domain/Attribute#attribute"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CodeListAttributeType" location="488,285" size="223,81" id="sk.kollar.knowledge.domain.attributetypes/CodeListAttributeType" runTimeClassModel="CodeListAttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZI)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="136,18">
+      <children xsi:type="editmodel:MethodEditModel" name="CodeListAttributeType" id="sk.kollar.knowledge.domain.attributetypes/CodeListAttributeType#CodeListAttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZI)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.5/@sourceConnections.0 //@children.4/@sourceConnections.0 //@children.8/@sourceConnections.0 //@children.9/@sourceConnections.0 //@children.3/@sourceConnections.0 //@children.2/@sourceConnections.0" autoLocated="true" id="sk.kollar.knowledge.domain/AttributeType&lt;-sk.kollar.knowledge.domain.attributetypes/CodeListAttributeType" source="//@children.7" target="//@children.6" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="110,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="87,224" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TextAttributeType" location="1124,289" size="223,207" id="sk.kollar.knowledge.domain.attributetypes/TextAttributeType" runTimeClassModel="getMaxLength(),getMinLength(),maxLength,setMinLength(J),TextAttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZLjava.lang.Long;Ljava.lang.Long;I),minLength,setMaxLength(J),TextAttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZI)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="102,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="maxLength" id="sk.kollar.knowledge.domain.attributetypes/TextAttributeType#maxLength"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="minLength" id="sk.kollar.knowledge.domain.attributetypes/TextAttributeType#minLength"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="114,108">
+      <children xsi:type="editmodel:MethodEditModel" name="TextAttributeType" id="sk.kollar.knowledge.domain.attributetypes/TextAttributeType#TextAttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZI)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="TextAttributeType" id="sk.kollar.knowledge.domain.attributetypes/TextAttributeType#TextAttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZLjava.lang.Long;Ljava.lang.Long;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMaxLength" id="sk.kollar.knowledge.domain.attributetypes/TextAttributeType#getMaxLength()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMinLength" id="sk.kollar.knowledge.domain.attributetypes/TextAttributeType#getMinLength()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setMaxLength" id="sk.kollar.knowledge.domain.attributetypes/TextAttributeType#setMaxLength(J)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setMinLength" id="sk.kollar.knowledge.domain.attributetypes/TextAttributeType#setMinLength(J)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="sk.kollar.knowledge.domain/AttributeType&lt;-sk.kollar.knowledge.domain.attributetypes/TextAttributeType" source="//@children.8" target="//@children.7/@sourceConnections.0" targetEnd="//@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="110,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="DateAttributeType" location="1307,289" size="223,225" id="sk.kollar.knowledge.domain.attributetypes/DateAttributeType" runTimeClassModel="getMaxValue(),getMinValue(),setMinValue(Ljava.util.Date;),minValue,setMaxValue(Ljava.util.Date;),DateAttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZI),DateAttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZLjava.util.Date;Ljava.util.Date;I),DateAttributeType(),maxValue">
+    <children xsi:type="editmodel:CompartmentEditModel" size="94,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="maxValue" id="sk.kollar.knowledge.domain.attributetypes/DateAttributeType#maxValue"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="minValue" id="sk.kollar.knowledge.domain.attributetypes/DateAttributeType#minValue"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,126">
+      <children xsi:type="editmodel:MethodEditModel" name="DateAttributeType" id="sk.kollar.knowledge.domain.attributetypes/DateAttributeType#DateAttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZLjava.util.Date;Ljava.util.Date;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="DateAttributeType" id="sk.kollar.knowledge.domain.attributetypes/DateAttributeType#DateAttributeType()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="DateAttributeType" id="sk.kollar.knowledge.domain.attributetypes/DateAttributeType#DateAttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZI)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMaxValue" id="sk.kollar.knowledge.domain.attributetypes/DateAttributeType#getMaxValue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMinValue" id="sk.kollar.knowledge.domain.attributetypes/DateAttributeType#getMinValue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setMaxValue" id="sk.kollar.knowledge.domain.attributetypes/DateAttributeType#setMaxValue(Ljava.util.Date;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setMinValue" id="sk.kollar.knowledge.domain.attributetypes/DateAttributeType#setMinValue(Ljava.util.Date;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="sk.kollar.knowledge.domain/AttributeType&lt;-sk.kollar.knowledge.domain.attributetypes/DateAttributeType" source="//@children.9" target="//@children.7/@sourceConnections.0" targetEnd="//@children.9/@sourceConnections.0/@children.1" sourceEnd="//@children.9/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="110,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=3;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
