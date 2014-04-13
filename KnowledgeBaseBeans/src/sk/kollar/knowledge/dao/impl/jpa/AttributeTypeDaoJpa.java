@@ -5,6 +5,6 @@ import sk.kollar.knowledge.domain.AttributeType;
 
 public class AttributeTypeDaoJpa extends GenericDaoJpa<AttributeType> implements
 		AttributeTypeDao {
-
+// test
 
 }
