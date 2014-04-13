@@ -1,0 +1,5 @@
+#Thu Apr 10 21:26:26 CEST 2014
+eclipse.preferences.version=1
+org.eclipse.jdt.apt.aptEnabled=false
+org.eclipse.jdt.apt.genSrcDir=metamodel
+org.eclipse.jdt.apt.reconcileEnabled=false

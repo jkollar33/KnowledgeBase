@@ -1,0 +1,5 @@
+#Thu Apr 10 21:27:44 CEST 2014
+eclipse.preferences.version=1
+org.eclipse.jpt.core.platform=generic2_0
+org.eclipse.jpt.jpa.core.discoverAnnotatedClasses=true
+org.eclipse.jpt.jpa.core.metamodelSourceFolderName=jpa-metamodel
