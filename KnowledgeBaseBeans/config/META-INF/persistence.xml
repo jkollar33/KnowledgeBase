@@ -16,6 +16,7 @@
             <property name="hibernate.connection.url" value="jdbc:postgresql://localhost/knowledge"/>
             <property name="hibernate.connection.username" value="knowledge_user"/>
             <property name="hibernate.connection.password" value="knowledge_password"/>
+            <property name="hibernate.hbm2ddl.auto" value="create"/>
             
             
 <!--             <property name="hibernate.c3p0.min_size" value="5"/>

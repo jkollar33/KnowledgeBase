@@ -20,7 +20,7 @@ public class SpringTest {
 		testService.test();
 		
 		FactType factType = new FactType("TEST", "Test fact type", "desc");
-		AttributeType attributeType = new TextAttributeType("CODE", "code attribute", "desc", true, false, false, 0);
+		AttributeType attributeType = new TextAttributeType("CODE", "code attribute", "desc", true, false, false);
 		
 		factType.addAttributeType(attributeType);
 

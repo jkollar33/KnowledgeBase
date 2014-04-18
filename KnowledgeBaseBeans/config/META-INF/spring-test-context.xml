@@ -18,6 +18,18 @@
 	<bean id="emf"
 		class="org.springframework.orm.jpa.LocalEntityManagerFactoryBean">
 		<property name="persistenceUnitName" value="KnowledgeBaseBeans" />
+		<property name="jpaVendorAdapter">
+            <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
+                <property name="showSql" value="true" />
+            </bean>
+        </property>
+
+        <property name="jpaPropertyMap">
+            <map>
+                <entry key="hibernate.hbm2ddl.auto" value="create"/>
+                <entry key="hibernate.format_sql" value="true" />
+            </map>
+        </property>
 	</bean>
 
 	<!-- bean post-processor for JPA annotations -->
@@ -36,7 +48,6 @@
 	<bean class="sk.kollar.knowledge.dao.impl.jpa.FactTypeDaoJpa" parent="genericDao"/>
 	<bean class="sk.kollar.knowledge.dao.impl.jpa.KeywordDaoJpa" parent="genericDao"/>
 	
-	<bean id="testService" class="sk.kollar.knowledge.service.TestService"/>
 	<bean id="testDataPreparer" class="sk.kollar.knowledge.util.TestDataPreparer"/>
 
 </beans>
