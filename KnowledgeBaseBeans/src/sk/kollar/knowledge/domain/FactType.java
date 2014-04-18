@@ -8,7 +8,7 @@ import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.OneToMany;
-import javax.persistence.OrderBy;
+import javax.persistence.OrderColumn;
 import javax.persistence.Table;
 
 import org.apache.commons.lang3.Validate;
@@ -43,7 +43,8 @@ public class FactType extends PersistentObject {
 			mappedBy = "factType",
 			cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE}, 
 			orphanRemoval = true)
-	@OrderBy("index ASC")
+//	@OrderBy("index ASC")
+	@OrderColumn(name = "index")
 	private List<AttributeType> attributeTypes;
 
 	public FactType(String code, String name, String description) {
@@ -81,8 +82,6 @@ public class FactType extends PersistentObject {
 		
 		attributeTypes.add(attributeType);
 		attributeType.setFactType(this);
-		
-		reorderAttributeIndices();
 	}
 
 	public void removeAttributeType(AttributeType attributeType) {
@@ -90,16 +89,8 @@ public class FactType extends PersistentObject {
 		
 		attributeTypes.remove(attributeType);
 		attributeType.setFactType(null);
-
-		reorderAttributeIndices();
 	}
 	
-	private void reorderAttributeIndices() {
-		for (AttributeType attributeType: attributeTypes) {
-			attributeType.setIndex(attributeTypes.indexOf(attributeType));
-		}
-	}
-
 	/**
 	 * Getter of the property <tt>code</tt>
 	 * @return  Returns the code.

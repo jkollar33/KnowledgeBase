@@ -72,12 +72,6 @@ public abstract class AttributeType extends PersistentObject {
 	@Column(nullable = false)
 	private boolean multipleOccurence;
 
-	/**
-	 * @uml.property  name="index"
-	 */
-	@Column(nullable = false)
-	private int index;
-
 	protected AttributeType() {
 	}
 
@@ -222,24 +216,6 @@ public abstract class AttributeType extends PersistentObject {
 		this.multipleOccurence = multipleOccurence;
 	}
 
-	/**
-	 * Getter of the property <tt>index</tt>
-	 * @return  Returns the index.
-	 * @uml.property  name="index"
-	 */
-	public int getIndex() {
-		return index;
-	}
-
-	/**
-	 * Setter of the property <tt>index</tt>
-	 * @param index  The index to set.
-	 * @uml.property  name="index"
-	 */
-	public void setIndex(int index) {
-		this.index = index;
-	}
-	
 	public final Attribute<?> createAttribute() {
 		return createAttributeImpl();
 	}
