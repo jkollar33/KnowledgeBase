@@ -22,14 +22,14 @@ public class DoubleAttributeType extends AttributeType {
 	}
 
 	public DoubleAttributeType(String code, String name, String description,
-			boolean mandatory, boolean isValue, boolean multipleOccurence, int index) {
-		this(code, name, description, mandatory, isValue, multipleOccurence, null, null, index);
+			boolean mandatory, boolean isValue, boolean multipleOccurence) {
+		this(code, name, description, mandatory, isValue, multipleOccurence, null, null);
 	}
 
 	public DoubleAttributeType(String code, String name, String description,
 			boolean mandatory, boolean isValue, boolean multipleOccurence,
-			Double minValue, Double maxValue, int index) {
-		super(code, name, description, mandatory, isValue, multipleOccurence, index);
+			Double minValue, Double maxValue) {
+		super(code, name, description, mandatory, isValue, multipleOccurence);
 		
 		this.minValue = minValue;
 		this.maxValue = maxValue;

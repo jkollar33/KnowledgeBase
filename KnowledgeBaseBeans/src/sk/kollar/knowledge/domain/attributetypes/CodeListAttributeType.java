@@ -6,8 +6,8 @@ import sk.kollar.knowledge.domain.AttributeType;
 public class CodeListAttributeType extends AttributeType {
 
 	public CodeListAttributeType(String code, String name, String description,
-			boolean mandatory, boolean isValue, boolean multipleOccurence, int index) {
-		super(code, name, description, mandatory, isValue, multipleOccurence, index);
+			boolean mandatory, boolean isValue, boolean multipleOccurence) {
+		super(code, name, description, mandatory, isValue, multipleOccurence);
 
 		// TODO
 		throw new RuntimeException("not implemented!");

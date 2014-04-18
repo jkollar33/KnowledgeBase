@@ -24,14 +24,14 @@ public class DateAttributeType extends AttributeType {
 	}
 
 	public DateAttributeType(String code, String name, String description,
-			boolean mandatory, boolean isValue, boolean multipleOccurence, int index) {
-		this(code, name, description, mandatory, isValue, multipleOccurence, null, null, index);
+			boolean mandatory, boolean isValue, boolean multipleOccurence) {
+		this(code, name, description, mandatory, isValue, multipleOccurence, null, null);
 	}
 
-	public DateAttributeType(String code, String name, String description,
+	private DateAttributeType(String code, String name, String description,
 			boolean mandatory, boolean isValue, boolean multipleOccurence,
-			Date minValue, Date maxValue, int index) {
-		super(code, name, description, mandatory, isValue, multipleOccurence, index);
+			Date minValue, Date maxValue) {
+		super(code, name, description, mandatory, isValue, multipleOccurence);
 		
 		this.minValue = minValue;
 		this.maxValue = maxValue;

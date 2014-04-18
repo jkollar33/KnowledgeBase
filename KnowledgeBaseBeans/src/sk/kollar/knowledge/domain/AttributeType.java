@@ -75,13 +75,14 @@ public abstract class AttributeType extends PersistentObject {
 	/**
 	 * @uml.property  name="index"
 	 */
+	@Column(nullable = false)
 	private int index;
 
 	protected AttributeType() {
 	}
 
 	public AttributeType(String code, String name, String description,
-			boolean mandatory, boolean isValue, boolean multipleOccurence, int index) {
+			boolean mandatory, boolean isValue, boolean multipleOccurence) {
 		super();
 
 		Validate.notNull(code, "code is required parameter!");
@@ -93,7 +94,6 @@ public abstract class AttributeType extends PersistentObject {
 		this.mandatory = mandatory;
 		this.isValue = isValue;
 		this.multipleOccurence = multipleOccurence;
-		this.index = index;
 	}
 
 	/** 

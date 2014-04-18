@@ -22,14 +22,14 @@ public class IntegerAttributeType extends AttributeType {
 	}
 
 	public IntegerAttributeType(String code, String name, String description,
-			boolean mandatory, boolean isValue, boolean multipleOccurence, int index) {
-		this(code, name, description, mandatory, isValue, multipleOccurence, null, null, index);
+			boolean mandatory, boolean isValue, boolean multipleOccurence) {
+		this(code, name, description, mandatory, isValue, multipleOccurence, null, null);
 	}
 
 	public IntegerAttributeType(String code, String name, String description,
 			boolean mandatory, boolean isValue, boolean multipleOccurence,
-			Integer minValue, Integer maxValue, int index) {
-		super(code, name, description, mandatory, isValue, multipleOccurence, index);
+			Integer minValue, Integer maxValue) {
+		super(code, name, description, mandatory, isValue, multipleOccurence);
 		
 		this.minValue = minValue;
 		this.maxValue = maxValue;

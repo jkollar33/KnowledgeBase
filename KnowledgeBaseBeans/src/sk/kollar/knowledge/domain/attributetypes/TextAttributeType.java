@@ -22,14 +22,14 @@ public class TextAttributeType extends AttributeType {
 	}
 
 	public TextAttributeType(String code, String name, String description,
-			boolean mandatory, boolean isValue, boolean multipleOccurence, int index) {
-		this(code, name, description, mandatory, isValue, multipleOccurence, null, null, index);
+			boolean mandatory, boolean isValue, boolean multipleOccurence) {
+		this(code, name, description, mandatory, isValue, multipleOccurence, null, null);
 	}
 
 	public TextAttributeType(String code, String name, String description,
 			boolean mandatory, boolean isValue, boolean multipleOccurence,
-			Long minLength, Long maxLength, int index) {
-		super(code, name, description, mandatory, isValue, multipleOccurence, index);
+			Long minLength, Long maxLength) {
+		super(code, name, description, mandatory, isValue, multipleOccurence);
 		
 		this.minLength = minLength;
 		this.maxLength = maxLength;
