@@ -3,6 +3,7 @@ package sk.kollar.knowledge.domain;
 import javax.persistence.Entity;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import java.util.Date;
 
 
 @Entity
@@ -23,6 +24,11 @@ public class UserFact extends PersistentObject {
 	@ManyToOne
 	@JoinColumn(nullable = false)
 	private User user;
+
+	/**
+	 * @uml.property  name="dateObtained"
+	 */
+	private Date dateObtained;
 
 	/** 
 	 * Getter of the property <tt>fact</tt>
@@ -58,6 +64,24 @@ public class UserFact extends PersistentObject {
 	 */
 	public void setUser(User user) {
 		this.user = user;
+	}
+
+	/**
+	 * Getter of the property <tt>dateObtained</tt>
+	 * @return  Returns the dateObtained.
+	 * @uml.property  name="dateObtained"
+	 */
+	public Date getDateObtained() {
+		return dateObtained;
+	}
+
+	/**
+	 * Setter of the property <tt>dateObtained</tt>
+	 * @param dateObtained  The dateObtained to set.
+	 * @uml.property  name="dateObtained"
+	 */
+	public void setDateObtained(Date dateObtained) {
+		this.dateObtained = dateObtained;
 	}
 
 }

@@ -1,7 +1,9 @@
 package sk.kollar.knowledge.domain;
 
+import java.util.HashSet;
 import java.util.Set;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.JoinColumn;
@@ -9,6 +11,8 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+
+import org.apache.commons.lang3.Validate;
 
 @Entity
 @Table(name = "APP_USER")
@@ -45,11 +49,23 @@ public class User extends PersistentObject {
 	 * @uml.property   name="userRoles"
 	 * @uml.associationEnd   multiplicity="(0 -1)" inverse="user:sk.kollar.knowledge.domain.Role"
 	 */
-	@ManyToMany
+	@ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE})
 	@JoinTable(name = "user_roles",
 			joinColumns = {@JoinColumn(name = "app_user", nullable = false)},
 			inverseJoinColumns = {@JoinColumn(name = "app_role", nullable = false)})
 	private Set<Role> userRoles;
+	
+	public User() {
+	}
+
+	public User(String userName, String password, String firstName,
+			String lastName) {
+		super();
+		this.userName = userName;
+		this.password = password;
+		this.firstName = firstName;
+		this.lastName = lastName;
+	}
 
 	/**
 	 * Getter of the property <tt>userName</tt>
@@ -92,8 +108,23 @@ public class User extends PersistentObject {
 	 * @return  Returns the userFacts.
 	 * @uml.property  name="userFacts"
 	 */
-	public Set<UserFact> getUserFacts() {
+	private Set<UserFact> getUserFacts() {
+		if (userFacts == null) {
+			userFacts = new HashSet<UserFact>();
+		}
 		return userFacts;
+	}
+	
+	public void addUserFact(UserFact userFact) {
+		Validate.notNull(userFact, "userFact is required parameter!");
+		
+		getUserFacts().add(userFact);
+	}
+
+	public void removeUserFact(UserFact userFact) {
+		Validate.notNull(userFact, "userFact is required parameter!");
+		
+		getUserFacts().remove(userFact);
 	}
 
 	/**
@@ -110,8 +141,23 @@ public class User extends PersistentObject {
 	 * @return  Returns the userRoles.
 	 * @uml.property  name="userRoles"
 	 */
-	public Set<Role> getUserRoles() {
+	private Set<Role> getUserRoles() {
+		if (userRoles == null) {
+			userRoles = new HashSet<Role>();
+		}
 		return userRoles;
+	}
+	
+	public void addRole(Role role) {
+		Validate.notNull(role, "role is required parameter!");
+		
+		getUserRoles().add(role);
+	}
+
+	public void removeRole(Role role) {
+		Validate.notNull(role, "role is required parameter!");
+		
+		getUserRoles().remove(role);
 	}
 
 	/**

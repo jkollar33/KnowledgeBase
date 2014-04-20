@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="domain" size="1215,888" id="sk.kollar.knowledge.domain" metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D31303030204B6E6F776C65646765426173654265616E732F4A75726F">
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="domain" size="1215,888" id="sk.kollar.knowledge.domain" metadata="uml2-1.0" initialized="true" scrolledX="-127" tag="1000" key="32303037303533312D31303030204B6E6F776C65646765426173654265616E732F4A75726F">
   <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0" name="FactType" location="213,15" size="153,193" id="sk.kollar.knowledge.domain/FactType" runTimeClassModel="removeAttributeType(Lsk.kollar.knowledge.domain.AttributeType;),createFact(Ljava.lang.String;Ljava.lang.String;),description,name,FactType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),code,FactType(),addAttributeType(Lsk.kollar.knowledge.domain.AttributeType;)">
     <children xsi:type="editmodel:CompartmentEditModel" size="106,54">
       <children xsi:type="editmodel:AttributeEditModel" name="code" id="sk.kollar.knowledge.domain/FactType#code"/>
@@ -27,7 +27,7 @@
     </sourceConnections>
     <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
   </children>
-  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0 //@children.3/@sourceConnections.0" name="AttributeType" location="516,15" size="175,247" id="sk.kollar.knowledge.domain/AttributeType" runTimeClassModel="createAttribute(),createAttributeImpl(),index,isValue,description,name,mandatory,AttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZI),code,AttributeType(),multipleOccurence">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0 //@children.3/@sourceConnections.0" name="AttributeType" location="516,15" size="175,247" id="sk.kollar.knowledge.domain/AttributeType" runTimeClassModel="createAttribute(),AttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZ),createAttributeImpl(),isValue,description,name,mandatory,code,AttributeType(),multipleOccurence">
     <children xsi:type="editmodel:CompartmentEditModel" size="152,126">
       <children xsi:type="editmodel:AttributeEditModel" name="code" id="sk.kollar.knowledge.domain/AttributeType#code"/>
       <children xsi:type="editmodel:AttributeEditModel" name="description" id="sk.kollar.knowledge.domain/AttributeType#description"/>
@@ -35,51 +35,47 @@
       <children xsi:type="editmodel:AttributeEditModel" name="mandatory" id="sk.kollar.knowledge.domain/AttributeType#mandatory"/>
       <children xsi:type="editmodel:AttributeEditModel" name="multipleOccurence" id="sk.kollar.knowledge.domain/AttributeType#multipleOccurence"/>
       <children xsi:type="editmodel:AttributeEditModel" name="name" id="sk.kollar.knowledge.domain/AttributeType#name"/>
-      <children xsi:type="editmodel:AttributeEditModel" name="index" id="sk.kollar.knowledge.domain/AttributeType#index"/>
     </children>
     <children xsi:type="editmodel:CompartmentEditModel" size="120,72">
-      <children xsi:type="editmodel:MethodEditModel" name="AttributeType" id="sk.kollar.knowledge.domain/AttributeType#AttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZI)"/>
       <children xsi:type="editmodel:MethodEditModel" name="AttributeType" id="sk.kollar.knowledge.domain/AttributeType#AttributeType()"/>
       <children xsi:type="editmodel:MethodEditModel" name="createAttributeImpl" id="sk.kollar.knowledge.domain/AttributeType#createAttributeImpl()"/>
       <children xsi:type="editmodel:MethodEditModel" name="createAttribute" id="sk.kollar.knowledge.domain/AttributeType#createAttribute()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="AttributeType" id="sk.kollar.knowledge.domain/AttributeType#AttributeType(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;ZZZ)"/>
     </children>
     <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
   </children>
-  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.0" name="Fact" location="220,325" size="130,139" id="sk.kollar.knowledge.domain/Fact" runTimeClassModel="removeAttribute(Lsk.kollar.knowledge.domain.Attribute;),addAttribute(Lsk.kollar.knowledge.domain.Attribute;),description,name,Fact(Lsk.kollar.knowledge.domain.FactType;Ljava.lang.String;Ljava.lang.String;),Fact(),attributes">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.0" name="Fact" location="220,325" size="168,157" id="sk.kollar.knowledge.domain/Fact" runTimeClassModel="removeAttribute(Lsk.kollar.knowledge.domain.Attribute;),addAttribute(Lsk.kollar.knowledge.domain.Attribute;),description,name,Fact(Lsk.kollar.knowledge.domain.FactType;Ljava.lang.String;Ljava.lang.String;),getAttributeByCode(Ljava.lang.String;Ljava.lang.Class;),Fact()">
     <children xsi:type="editmodel:CompartmentEditModel" size="106,36">
       <children xsi:type="editmodel:AttributeEditModel" name="description" id="sk.kollar.knowledge.domain/Fact#description"/>
       <children xsi:type="editmodel:AttributeEditModel" name="name" id="sk.kollar.knowledge.domain/Fact#name"/>
-      <children xsi:type="editmodel:AttributeEditModel" name="attributes" id="sk.kollar.knowledge.domain/Fact#attributes"/>
     </children>
-    <children xsi:type="editmodel:CompartmentEditModel" size="107,54">
+    <children xsi:type="editmodel:CompartmentEditModel" size="145,72">
       <children xsi:type="editmodel:MethodEditModel" name="Fact" location="8,72" id="sk.kollar.knowledge.domain/Fact#Fact(Lsk.kollar.knowledge.domain.FactType;Ljava.lang.String;Ljava.lang.String;)"/>
       <children xsi:type="editmodel:MethodEditModel" name="removeAttribute" id="sk.kollar.knowledge.domain/Fact#removeAttribute(Lsk.kollar.knowledge.domain.Attribute;)"/>
       <children xsi:type="editmodel:MethodEditModel" name="addAttribute" location="10,103" id="sk.kollar.knowledge.domain/Fact#addAttribute(Lsk.kollar.knowledge.domain.Attribute;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAttributeByCode" id="sk.kollar.knowledge.domain/Fact#getAttributeByCode(Ljava.lang.String;Ljava.lang.Class;)"/>
     </children>
     <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="sk.kollar.knowledge.domain/FactType@factType+sk.kollar.knowledge.domain/Fact@fact" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.0/@children.1" label="//@children.2/@sourceConnections.0/@children.2" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
-      <children xsi:type="editmodel:AssociationEndEditModel" name="fact" location="64,0" id="sk.kollar.knowledge.domain/FactType@factType+sk.kollar.knowledge.domain/Fact@fact|sk.kollar.knowledge.domain/Fact#fact" attachSource="true"/>
-      <children xsi:type="editmodel:AssociationEndEditModel" name="factType" location="71,193" id="sk.kollar.knowledge.domain/FactType@factType+sk.kollar.knowledge.domain/Fact@fact|sk.kollar.knowledge.domain/FactType#factType" multiplicityLabel="//@children.2/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.2/@sourceConnections.0/@children.1/@children.0" navigable="true">
-        <children xsi:type="editmodel:LabelEditModel" name=" - factType" location="291,215" size="52,14" anchorKind="LastPart"/>
-        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="259,215" size="18,14" anchorKind="LastPart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="fact" location="72,0" id="sk.kollar.knowledge.domain/FactType@factType+sk.kollar.knowledge.domain/Fact@fact|sk.kollar.knowledge.domain/Fact#fact" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="factType" location="79,193" id="sk.kollar.knowledge.domain/FactType@factType+sk.kollar.knowledge.domain/Fact@fact|sk.kollar.knowledge.domain/FactType#factType" multiplicityLabel="//@children.2/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.2/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - factType" location="299,215" size="52,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="267,215" size="18,14" anchorKind="LastPart"/>
       </children>
       <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
     </sourceConnections>
-    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="sk.kollar.knowledge.domain/Fact@fact+sk.kollar.knowledge.domain/Attribute@attribute" source="//@children.2" target="//@children.3" targetEnd="//@children.2/@sourceConnections.1/@children.1" label="//@children.2/@sourceConnections.1/@children.2" sourceEnd="//@children.2/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
-      <children xsi:type="editmodel:AssociationEndEditModel" name="fact" location="130,69" id="sk.kollar.knowledge.domain/Fact@fact+sk.kollar.knowledge.domain/Attribute@attribute|sk.kollar.knowledge.domain/Fact#fact" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.1/@children.0/@children.1" roleLabel="//@children.2/@sourceConnections.1/@children.0/@children.0" navigable="true">
-        <children xsi:type="editmodel:LabelEditModel" name="- fact" location="357,373" size="29,14" anchorKind="FirstPart"/>
-        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="357,401" size="18,14" anchorKind="FirstPart"/>
-      </children>
-      <children xsi:type="editmodel:AssociationEndEditModel" name="attribute" location="0,69" id="sk.kollar.knowledge.domain/Fact@fact+sk.kollar.knowledge.domain/Attribute@attribute|sk.kollar.knowledge.domain/Attribute#attribute" multiplicityLabel="//@children.2/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.2/@sourceConnections.1/@children.1/@children.0" aggregationKind="Aggregration" navigable="true">
-        <children xsi:type="editmodel:LabelEditModel" name=" + attribute" location="455,373" size="51,14" anchorKind="LastPart"/>
-        <children xsi:type="editmodel:LabelEditModel" name="*" location="502,401" size="4,14" anchorKind="LastPart"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="sk.kollar.knowledge.domain/Attribute@attribute+sk.kollar.knowledge.domain/Fact@fact" source="//@children.2" target="//@children.3" targetEnd="//@children.2/@sourceConnections.1/@children.1" label="//@children.2/@sourceConnections.1/@children.2" sourceEnd="//@children.2/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="fact" location="168,78" id="sk.kollar.knowledge.domain/Attribute@attribute+sk.kollar.knowledge.domain/Fact@fact|sk.kollar.knowledge.domain/Fact#fact" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="attribute" location="0,78" id="sk.kollar.knowledge.domain/Attribute@attribute+sk.kollar.knowledge.domain/Fact@fact|sk.kollar.knowledge.domain/Attribute#attribute" multiplicityLabel="//@children.2/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.2/@sourceConnections.1/@children.1/@children.0" aggregationKind="Aggregration" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - attribute" location="457,382" size="49,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="502,410" size="4,14" anchorKind="LastPart"/>
       </children>
       <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
     </sourceConnections>
     <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
   </children>
-  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.1 //@children.6/@sourceConnections.0" name="Attribute" location="513,325" size="182,175" id="sk.kollar.knowledge.domain/Attribute" runTimeClassModel="getValue(),Attribute(),addAttributeKeyWord(Lsk.kollar.knowledge.domain.AttributeKeyWord;),Attribute(Lsk.kollar.knowledge.domain.AttributeType;),removeAttributeKeyWord(Lsk.kollar.knowledge.domain.AttributeKeyWord;),setValue(LT;),computableValue">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.1 //@children.6/@sourceConnections.0" name="Attribute" location="513,325" size="182,175" id="sk.kollar.knowledge.domain/Attribute" runTimeClassModel="getValue(),Attribute(),Attribute(Lsk.kollar.knowledge.domain.AttributeType;),addAttributeKeyWord(Lsk.kollar.knowledge.domain.AttributeKeyWord;),removeAttributeKeyWord(Lsk.kollar.knowledge.domain.AttributeKeyWord;),setValue(LT;),computableValue">
     <children xsi:type="editmodel:CompartmentEditModel" size="159,18">
       <children xsi:type="editmodel:AttributeEditModel" name="computableValue" id="sk.kollar.knowledge.domain/Attribute#computableValue"/>
     </children>
@@ -102,7 +98,7 @@
     </sourceConnections>
     <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
   </children>
-  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.1 //@children.5/@sourceConnections.0" name="KeyWord" location="525,675" size="280,193" id="sk.kollar.knowledge.domain/KeyWord" runTimeClassModel="removeParentRelation(Lsk.kollar.knowledge.domain.KeyWordRelation;),description,name,childrenKeyWordRelation,addChildRelation(Lsk.kollar.knowledge.domain.KeyWordRelation;),addParentRelation(Lsk.kollar.knowledge.domain.KeyWordRelation;),code,keyWordRelationParent">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.1 //@children.5/@sourceConnections.0" name="KeyWord" location="840,517" size="280,193" id="sk.kollar.knowledge.domain/KeyWord" runTimeClassModel="removeParentRelation(Lsk.kollar.knowledge.domain.KeyWordRelation;),description,name,childrenKeyWordRelation,addParentRelation(Lsk.kollar.knowledge.domain.KeyWordRelation;),addChildRelation(Lsk.kollar.knowledge.domain.KeyWordRelation;),code,keyWordRelationParent">
     <children xsi:type="editmodel:CompartmentEditModel" size="257,90">
       <children xsi:type="editmodel:AttributeEditModel" name="childrenKeyWordRelation" id="sk.kollar.knowledge.domain/KeyWord#childrenKeyWordRelation"/>
       <children xsi:type="editmodel:AttributeEditModel" name="code" id="sk.kollar.knowledge.domain/KeyWord#code"/>
@@ -118,7 +114,7 @@
     <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
   </children>
-  <children xsi:type="editmodel:ClassEditModel" name="KeyWordRelation" location="915,684" size="169,175" id="sk.kollar.knowledge.domain/KeyWordRelation" runTimeClassModel="getParentKeyWord(),getChildKeyWord(),weight,setChildKeyWord(Lsk.kollar.knowledge.domain.KeyWord;),setParentKeyWord(Lsk.kollar.knowledge.domain.KeyWord;),parentKeyWord,childKeyWord">
+  <children xsi:type="editmodel:ClassEditModel" name="KeyWordRelation" location="555,585" size="169,175" id="sk.kollar.knowledge.domain/KeyWordRelation" runTimeClassModel="getChildKeyWord(),getParentKeyWord(),weight,setChildKeyWord(Lsk.kollar.knowledge.domain.KeyWord;),setParentKeyWord(Lsk.kollar.knowledge.domain.KeyWord;),parentKeyWord,childKeyWord">
     <children xsi:type="editmodel:CompartmentEditModel" size="146,54">
       <children xsi:type="editmodel:AttributeEditModel" name="childKeyWord" id="sk.kollar.knowledge.domain/KeyWordRelation#childKeyWord"/>
       <children xsi:type="editmodel:AttributeEditModel" name="parentKeyWord" id="sk.kollar.knowledge.domain/KeyWordRelation#parentKeyWord"/>
@@ -133,89 +129,101 @@
     <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="sk.kollar.knowledge.domain/KeyWordRelation-Soyatec::Import->sk.kollar.knowledge.domain/KeyWord" source="//@children.5" target="//@children.4" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
       <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
-      <children xsi:type="editmodel:AssociationEndEditModel" location="0,87" attachSource="true"/>
-      <children xsi:type="editmodel:AssociationEndEditModel" location="280,96"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="169,62" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,130"/>
     </sourceConnections>
     <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
   </children>
-  <children xsi:type="editmodel:ClassEditModel" name="AttributeKeyWord" location="529,573" size="154,57" id="sk.kollar.knowledge.domain/AttributeKeyWord" runTimeClassModel="weight">
+  <children xsi:type="editmodel:ClassEditModel" name="AttributeKeyWord" location="885,375" size="154,57" id="sk.kollar.knowledge.domain/AttributeKeyWord" runTimeClassModel="weight">
     <children xsi:type="editmodel:CompartmentEditModel" size="90,18">
       <children xsi:type="editmodel:AttributeEditModel" name="weight" id="sk.kollar.knowledge.domain/AttributeKeyWord#weight"/>
     </children>
     <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
-    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="sk.kollar.knowledge.domain/AttributeKeyWord@keyWords+sk.kollar.knowledge.domain/Attribute@attribute" source="//@children.6" target="//@children.3" targetEnd="//@children.6/@sourceConnections.0/@children.1" label="//@children.6/@sourceConnections.0/@children.2" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
-      <children xsi:type="editmodel:AssociationEndEditModel" name="keyWords" location="76,0" id="sk.kollar.knowledge.domain/AttributeKeyWord@keyWords+sk.kollar.knowledge.domain/Attribute@attribute|sk.kollar.knowledge.domain/AttributeKeyWord#keyWords" attachSource="true" multiplicityLabel="//@children.6/@sourceConnections.0/@children.0/@children.1" roleLabel="//@children.6/@sourceConnections.0/@children.0/@children.0" navigable="true">
-        <children xsi:type="editmodel:LabelEditModel" name=" - keyWords" location="612,552" size="59,14" anchorKind="FirstPart"/>
-        <children xsi:type="editmodel:LabelEditModel" name="*" location="594,552" size="4,14" anchorKind="FirstPart"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="sk.kollar.knowledge.domain/Attribute@attribute+sk.kollar.knowledge.domain/AttributeKeyWord@keyWords" source="//@children.6" target="//@children.3" targetEnd="//@children.6/@sourceConnections.0/@children.1" label="//@children.6/@sourceConnections.0/@children.2" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="keyWords" location="0,28" id="sk.kollar.knowledge.domain/Attribute@attribute+sk.kollar.knowledge.domain/AttributeKeyWord@keyWords|sk.kollar.knowledge.domain/AttributeKeyWord#keyWords" attachSource="true" multiplicityLabel="//@children.6/@sourceConnections.0/@children.0/@children.1" roleLabel="//@children.6/@sourceConnections.0/@children.0/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" + keyWords" location="817,382" size="61,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="874,410" size="4,14" anchorKind="FirstPart"/>
       </children>
-      <children xsi:type="editmodel:AssociationEndEditModel" name="attribute" location="92,175" id="sk.kollar.knowledge.domain/AttributeKeyWord@keyWords+sk.kollar.knowledge.domain/Attribute@attribute|sk.kollar.knowledge.domain/Attribute#attribute" multiplicityLabel="//@children.6/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.6/@sourceConnections.0/@children.1/@children.0" navigable="true">
-        <children xsi:type="editmodel:LabelEditModel" name=" - attribute" location="612,507" size="49,14" anchorKind="LastPart"/>
-        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="580,507" size="18,14" anchorKind="LastPart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="attribute" location="182,78" id="sk.kollar.knowledge.domain/Attribute@attribute+sk.kollar.knowledge.domain/AttributeKeyWord@keyWords|sk.kollar.knowledge.domain/Attribute#attribute" multiplicityLabel="//@children.6/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.6/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - attribute" location="702,382" size="49,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="702,410" size="18,14" anchorKind="LastPart"/>
       </children>
       <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
     </sourceConnections>
     <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="sk.kollar.knowledge.domain/KeyWord@keyWord+sk.kollar.knowledge.domain/AttributeKeyWord@attributeKeyWord" source="//@children.6" target="//@children.4" targetEnd="//@children.6/@sourceConnections.1/@children.1" label="//@children.6/@sourceConnections.1/@children.2" sourceEnd="//@children.6/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
       <children xsi:type="editmodel:AssociationEndEditModel" name="attributeKeyWord" location="76,57" id="sk.kollar.knowledge.domain/KeyWord@keyWord+sk.kollar.knowledge.domain/AttributeKeyWord@attributeKeyWord|sk.kollar.knowledge.domain/AttributeKeyWord#attributeKeyWord" attachSource="true"/>
-      <children xsi:type="editmodel:AssociationEndEditModel" name="keyWord" location="80,0" id="sk.kollar.knowledge.domain/KeyWord@keyWord+sk.kollar.knowledge.domain/AttributeKeyWord@attributeKeyWord|sk.kollar.knowledge.domain/KeyWord#keyWord" multiplicityLabel="//@children.6/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.6/@sourceConnections.1/@children.1/@children.0" navigable="true">
-        <children xsi:type="editmodel:LabelEditModel" name=" - keyWord" location="612,654" size="53,14" anchorKind="LastPart"/>
-        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="580,654" size="18,14" anchorKind="LastPart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="keyWord" location="121,0" id="sk.kollar.knowledge.domain/KeyWord@keyWord+sk.kollar.knowledge.domain/AttributeKeyWord@attributeKeyWord|sk.kollar.knowledge.domain/KeyWord#keyWord" multiplicityLabel="//@children.6/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.6/@sourceConnections.1/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - keyWord" location="968,496" size="53,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="936,496" size="18,14" anchorKind="LastPart"/>
       </children>
       <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
     </sourceConnections>
     <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
   </children>
-  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.1" name="User" location="211,642" size="126,111" id="sk.kollar.knowledge.domain/User" runTimeClassModel="lastName,userName,firstName,password">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.1" name="User" location="-210,325" size="133,229" id="sk.kollar.knowledge.domain/User" runTimeClassModel="lastName,removeRole(Lsk.kollar.knowledge.domain.Role;),addUserFact(Lsk.kollar.knowledge.domain.UserFact;),addRole(Lsk.kollar.knowledge.domain.Role;),userName,firstName,User(),removeUserFact(Lsk.kollar.knowledge.domain.UserFact;),password,User(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)">
     <children xsi:type="editmodel:CompartmentEditModel" size="103,72">
       <children xsi:type="editmodel:AttributeEditModel" name="firstName" id="sk.kollar.knowledge.domain/User#firstName"/>
-      <children xsi:type="editmodel:AttributeEditModel" name="lastName" id="sk.kollar.knowledge.domain/User#lastName"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lastName" location="9,13" id="sk.kollar.knowledge.domain/User#lastName"/>
       <children xsi:type="editmodel:AttributeEditModel" name="password" id="sk.kollar.knowledge.domain/User#password"/>
       <children xsi:type="editmodel:AttributeEditModel" name="userName" id="sk.kollar.knowledge.domain/User#userName"/>
     </children>
-    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,108">
+      <children xsi:type="editmodel:MethodEditModel" name="removeRole" id="sk.kollar.knowledge.domain/User#removeRole(Lsk.kollar.knowledge.domain.Role;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="User" id="sk.kollar.knowledge.domain/User#User(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="User" id="sk.kollar.knowledge.domain/User#User()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addRole" id="sk.kollar.knowledge.domain/User#addRole(Lsk.kollar.knowledge.domain.Role;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addUserFact" id="sk.kollar.knowledge.domain/User#addUserFact(Lsk.kollar.knowledge.domain.UserFact;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeUserFact" id="sk.kollar.knowledge.domain/User#removeUserFact(Lsk.kollar.knowledge.domain.UserFact;)"/>
+    </children>
     <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="sk.kollar.knowledge.domain/Role@userRoles+sk.kollar.knowledge.domain/User@user" source="//@children.7" target="//@children.9" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
       <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
-      <children xsi:type="editmodel:AssociationEndEditModel" name="user" location="0,64" id="sk.kollar.knowledge.domain/Role@userRoles+sk.kollar.knowledge.domain/User@user|sk.kollar.knowledge.domain/User#user" attachSource="true"/>
-      <children xsi:type="editmodel:AssociationEndEditModel" name="userRoles" location="129,46" id="sk.kollar.knowledge.domain/Role@userRoles+sk.kollar.knowledge.domain/User@user|sk.kollar.knowledge.domain/Role#userRoles" multiplicityLabel="//@children.7/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.7/@sourceConnections.0/@children.2/@children.0" navigable="true">
-        <children xsi:type="editmodel:LabelEditModel" name=" - userRoles" location="76,685" size="59,14" anchorKind="LastPart"/>
-        <children xsi:type="editmodel:LabelEditModel" name="*" location="76,713" size="4,14" anchorKind="LastPart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="user" location="74,229" id="sk.kollar.knowledge.domain/Role@userRoles+sk.kollar.knowledge.domain/User@user|sk.kollar.knowledge.domain/User#user" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="userRoles" location="59,0" id="sk.kollar.knowledge.domain/Role@userRoles+sk.kollar.knowledge.domain/User@user|sk.kollar.knowledge.domain/Role#userRoles" multiplicityLabel="//@children.7/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.7/@sourceConnections.0/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - userRoles" location="-129,594" size="59,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="-147,594" size="4,14" anchorKind="LastPart"/>
       </children>
     </sourceConnections>
     <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
   </children>
-  <children xsi:type="editmodel:ClassEditModel" name="UserFact" location="225,540" size="97,29" id="sk.kollar.knowledge.domain/UserFact" runTimeClassModel="">
-    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+  <children xsi:type="editmodel:ClassEditModel" name="UserFact" location="30,375" size="134,57" id="sk.kollar.knowledge.domain/UserFact" runTimeClassModel="dateObtained">
+    <children xsi:type="editmodel:CompartmentEditModel" size="111,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="dateObtained" id="sk.kollar.knowledge.domain/UserFact#dateObtained"/>
+    </children>
     <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="sk.kollar.knowledge.domain/Fact@fact+sk.kollar.knowledge.domain/UserFact@userFacts" source="//@children.8" target="//@children.2" targetEnd="//@children.8/@sourceConnections.0/@children.1" label="//@children.8/@sourceConnections.0/@children.2" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
-      <children xsi:type="editmodel:AssociationEndEditModel" name="userFacts" location="48,0" id="sk.kollar.knowledge.domain/Fact@fact+sk.kollar.knowledge.domain/UserFact@userFacts|sk.kollar.knowledge.domain/UserFact#userFacts" attachSource="true"/>
-      <children xsi:type="editmodel:AssociationEndEditModel" name="fact" location="53,139" id="sk.kollar.knowledge.domain/Fact@fact+sk.kollar.knowledge.domain/UserFact@userFacts|sk.kollar.knowledge.domain/Fact#fact" multiplicityLabel="//@children.8/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.8/@sourceConnections.0/@children.1/@children.0" navigable="true">
-        <children xsi:type="editmodel:LabelEditModel" name=" - fact" location="280,471" size="29,14" anchorKind="LastPart"/>
-        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="248,471" size="18,14" anchorKind="LastPart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="userFacts" location="134,28" id="sk.kollar.knowledge.domain/Fact@fact+sk.kollar.knowledge.domain/UserFact@userFacts|sk.kollar.knowledge.domain/UserFact#userFacts" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="fact" location="0,78" id="sk.kollar.knowledge.domain/Fact@fact+sk.kollar.knowledge.domain/UserFact@userFacts|sk.kollar.knowledge.domain/Fact#fact" multiplicityLabel="//@children.8/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.8/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - fact" location="184,382" size="29,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="195,410" size="18,14" anchorKind="LastPart"/>
       </children>
       <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
     </sourceConnections>
     <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="sk.kollar.knowledge.domain/UserFact@userFacts+sk.kollar.knowledge.domain/User@user" source="//@children.8" target="//@children.7" targetEnd="//@children.8/@sourceConnections.1/@children.1" label="//@children.8/@sourceConnections.1/@children.2" sourceEnd="//@children.8/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
-      <children xsi:type="editmodel:AssociationEndEditModel" name="userFacts" location="48,29" id="sk.kollar.knowledge.domain/UserFact@userFacts+sk.kollar.knowledge.domain/User@user|sk.kollar.knowledge.domain/UserFact#userFacts" attachSource="true" multiplicityLabel="//@children.8/@sourceConnections.1/@children.0/@children.1" roleLabel="//@children.8/@sourceConnections.1/@children.0/@children.0" navigable="true">
-        <children xsi:type="editmodel:LabelEditModel" name=" - userFacts" location="280,576" size="59,14" anchorKind="FirstPart"/>
-        <children xsi:type="editmodel:LabelEditModel" name="*" location="262,576" size="4,14" anchorKind="FirstPart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="userFacts" location="0,28" id="sk.kollar.knowledge.domain/UserFact@userFacts+sk.kollar.knowledge.domain/User@user|sk.kollar.knowledge.domain/UserFact#userFacts" attachSource="true" multiplicityLabel="//@children.8/@sourceConnections.1/@children.0/@children.1" roleLabel="//@children.8/@sourceConnections.1/@children.0/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - userFacts" location="-36,382" size="59,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="19,410" size="4,14" anchorKind="FirstPart"/>
       </children>
-      <children xsi:type="editmodel:AssociationEndEditModel" name="user" location="62,0" id="sk.kollar.knowledge.domain/UserFact@userFacts+sk.kollar.knowledge.domain/User@user|sk.kollar.knowledge.domain/User#user" multiplicityLabel="//@children.8/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.8/@sourceConnections.1/@children.1/@children.0" navigable="true">
-        <children xsi:type="editmodel:LabelEditModel" name=" + user" location="280,621" size="34,14" anchorKind="LastPart"/>
-        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="248,621" size="18,14" anchorKind="LastPart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="user" location="134,78" id="sk.kollar.knowledge.domain/UserFact@userFacts+sk.kollar.knowledge.domain/User@user|sk.kollar.knowledge.domain/User#user" multiplicityLabel="//@children.8/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.8/@sourceConnections.1/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - user" location="-70,382" size="32,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="-70,410" size="18,14" anchorKind="LastPart"/>
       </children>
       <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
     </sourceConnections>
     <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
   </children>
-  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.0" name="Role" location="-15,752" size="129,93" id="sk.kollar.knowledge.domain/Role" runTimeClassModel="description,name,code">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.0" name="Role" location="-195,615" size="129,139" id="sk.kollar.knowledge.domain/Role" runTimeClassModel="Role(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),Role(),description,name,code">
     <children xsi:type="editmodel:CompartmentEditModel" size="106,54">
       <children xsi:type="editmodel:AttributeEditModel" name="code" id="sk.kollar.knowledge.domain/Role#code"/>
       <children xsi:type="editmodel:AttributeEditModel" name="description" id="sk.kollar.knowledge.domain/Role#description"/>
       <children xsi:type="editmodel:AttributeEditModel" name="name" id="sk.kollar.knowledge.domain/Role#name"/>
     </children>
-    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="51,36">
+      <children xsi:type="editmodel:MethodEditModel" name="Role" id="sk.kollar.knowledge.domain/Role#Role(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Role" id="sk.kollar.knowledge.domain/Role#Role()"/>
+    </children>
     <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
   </children>

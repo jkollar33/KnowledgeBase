@@ -31,7 +31,8 @@ public class Fact extends PersistentObject {
 	 * @uml.associationEnd multiplicity="(0 -1)" aggregation="shared" inverse="fact:sk.kollar.knowledge.domain.Attribute"
 	 */
 	@OneToMany(mappedBy = "fact", 
-			cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE})
+			cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE},
+			orphanRemoval = true)
 	@OrderBy("index ASC")
 	private List<Attribute<?>> attributes;
 
@@ -150,6 +151,28 @@ public class Fact extends PersistentObject {
 	//	public void setAttributes(Set<Attribute> attribute) {
 	//		this.attributes = attribute;
 	//	}
+	
+	/**
+	 * Finds {@link Attribute} of this fact by its code.
+	 * @param code code of the attribute. This code is matched with code property
+	 * in corresponding {@link AttributeType}. required parameter
+	 * @param attributeClass the expected class of the attribute, required parameter
+	 * @return attribute, never returns null.
+	 * @throws IllegalArgumentException if no attribute found.
+	 */
+	@SuppressWarnings("unchecked")
+	public <T extends Attribute<?>> T getAttributeByCode(String code, Class<T> attributeClass) {
+		Validate.notNull(code, "code is required parameter!");
+		Validate.notNull(attributeClass, "attributeClass is required parameter!");
+
+		for (Attribute<?> attribute: attributes) {
+			if (attribute.getAttributeType().getCode().equals(code)) {
+				return (T) attribute;
+			}
+		}
+		
+		throw new IllegalArgumentException("No attribute with code " + code + " found!");
+	}
 
 
 }

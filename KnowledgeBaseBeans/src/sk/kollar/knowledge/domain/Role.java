@@ -20,11 +20,21 @@ public class Role extends PersistentObject {
 	 */
 	@Column(nullable = false)
 	private String name;
-
+	
 	/**
 	 * @uml.property  name="description"
 	 */
 	private String description;
+
+	public Role() {
+	}
+
+	public Role(String code, String name, String description) {
+		super();
+		this.code = code;
+		this.name = name;
+		this.description = description;
+	}
 
 	/**
 	 * Getter of the property <tt>code</tt>

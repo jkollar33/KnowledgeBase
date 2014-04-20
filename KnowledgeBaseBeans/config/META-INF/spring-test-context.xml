@@ -20,7 +20,7 @@
 		<property name="persistenceUnitName" value="KnowledgeBaseBeans" />
 		<property name="jpaVendorAdapter">
             <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
-                <property name="showSql" value="true" />
+                <!-- <property name="showSql" value="true" /> -->
             </bean>
         </property>
 
